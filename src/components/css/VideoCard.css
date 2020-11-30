@@ -1,0 +1,25 @@
+.videoCard {
+  color: #fff;
+  width: 400px;
+  height: 350px;
+  padding: 20px;
+  -webkit-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+}
+
+.videoCard:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.videoCard > img {
+  height: 270px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 350px;
+}
+
+.videoCard > h2 {
+  padding-top: 10px;
+}
+/*# sourceMappingURL=VideoCard.css.map */
