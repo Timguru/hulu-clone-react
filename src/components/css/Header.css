@@ -1,0 +1,85 @@
+.header {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+
+.header::-webkit-scrollbar {
+  display: none;
+}
+
+.header {
+  -ms-overflow-style: none;
+}
+
+.header > img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 80px;
+}
+
+.header__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.header__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100px;
+  padding: 0 3px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.header__icon--active > p {
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
+}
+
+.header__icon > .MuiSvgIcon-root {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+}
+
+.header__icon > p {
+  display: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: small;
+  -webkit-transition: all 100ms ease;
+  transition: all 100ms ease;
+}
+
+.header__icon:hover > p {
+  display: inline;
+}
+/*# sourceMappingURL=Header.css.map */
